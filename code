@@ -1,0 +1,16 @@
+//Initialize Constructor in Java
+Class First{
+
+int num;
+String name;
+First(){  //Constructor initialized
+System.out.prinln("Constructor called");
+}
+}
+Class JK{
+public static void main(String[]x){
+First s2 = new First(); //Contructor Invoked
+System.out.println(s2.num);
+System.out.printl(s2.name);
+}
+}
